@@ -14,7 +14,7 @@ const Index = () => {
   useRevealAnimation();
   
   useEffect(() => {
-    document.title = "Construa Landing Pages que Vendem | Curso por Brandon Tecco";
+    document.title = "SwiftChat | Atendente de WhatsApp com IA para seu negócio";
   }, []);
 
   return (

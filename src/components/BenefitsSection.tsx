@@ -1,27 +1,27 @@
 
 import React, { useEffect } from 'react';
-import { CheckCircle, Layout, ImageIcon, PenTool } from 'lucide-react';
+import { MessageSquare, Bot, Zap, Users } from 'lucide-react';
 
 const benefitsData = [
   {
-    icon: CheckCircle,
-    title: "Aprenda HTML & Tailwind",
-    description: "Domine as tecnologias mais demandadas para criar landing pages modernas e responsivas."
+    icon: MessageSquare,
+    title: "Respostas Instantâneas",
+    description: "Atendimento automático para perguntas frequentes e solicitações de suporte em qualquer horário."
   },
   {
-    icon: Layout,
-    title: "Design Responsivo",
-    description: "Crie layouts que funcionam perfeitamente em qualquer dispositivo, de smartphones a desktops."
+    icon: Bot,
+    title: "IA Avançada",
+    description: "Tecnologia de processamento de linguagem natural que entende contexto e intenções dos clientes."
   },
   {
-    icon: PenTool,
-    title: "Copy que Converte",
-    description: "Aprenda técnicas de copywriting que aumentam significativamente suas taxas de conversão."
+    icon: Zap,
+    title: "Integração Rápida",
+    description: "Configure em minutos e integre com seu WhatsApp Business, CRM e sistemas existentes."
   },
   {
-    icon: ImageIcon,
-    title: "Visual Premium",
-    description: "Construa designs de alto impacto com técnicas de UI/UX que impressionam seus clientes."
+    icon: Users,
+    title: "Experiência Personalizada",
+    description: "Interações personalizadas baseadas no histórico e comportamento dos clientes."
   }
 ];
 
@@ -53,10 +53,10 @@ const BenefitsSection: React.FC = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 reveal">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            O que você vai <span className="text-gradient">aprender</span>
+            Por que escolher nossa <span className="text-gradient">solução</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Desenvolvemos um método completo para te transformar em um especialista em landing pages de alto desempenho.
+            Uma plataforma completa para automatizar seu atendimento ao cliente no WhatsApp com inteligência artificial
           </p>
         </div>
 

@@ -3,22 +3,22 @@ import React, { useEffect } from 'react';
 
 const testimonials = [
   {
-    name: "Laura Mendes",
-    role: "Designer Freelancer",
-    avatar: "https://i.pravatar.cc/150?img=5",
-    text: "O curso mudou completamente minha abordagem sobre landing pages. Consegui aumentar meu valor de mercado em 70% e agora tenho uma lista de espera de clientes."
-  },
-  {
-    name: "Pedro Almeida",
-    role: "Desenvolvedor Front-end",
+    name: "Carlos Mendes",
+    role: "CEO, Serviços Express",
     avatar: "https://i.pravatar.cc/150?img=8",
-    text: "Eu já conhecia HTML e CSS, mas as técnicas de conversão e psicologia do consumidor apresentadas pelo Brandon são um divisor de águas. Meus projetos agora têm resultados mensuráveis."
+    text: "O SwiftChat transformou nosso atendimento ao cliente. Reduzimos o tempo médio de resposta de 4 horas para menos de 2 minutos, e nossa taxa de conversão aumentou em 35%."
   },
   {
-    name: "Sofia Cardoso",
-    role: "Consultora de Marketing",
-    avatar: "https://i.pravatar.cc/150?img=9",
-    text: "Simples e eficaz! Consegui aplicar os conceitos desde a primeira aula e já estou colhendo resultados. O módulo de copywriting para landing pages é excelente."
+    name: "Marina Alves",
+    role: "Gerente de Marketing, TechStore",
+    avatar: "https://i.pravatar.cc/150?img=5",
+    text: "Implementamos o SwiftChat há 3 meses e já vimos um aumento de 42% nas vendas via WhatsApp. Os clientes adoram as respostas rápidas e personalizadas em qualquer horário."
+  },
+  {
+    name: "Ricardo Santos",
+    role: "Diretor de Operações, FitClub",
+    avatar: "https://i.pravatar.cc/150?img=12",
+    text: "Nosso time de atendimento reduziu a carga de trabalho em 70% e agora focam apenas em casos que realmente precisam da intervenção humana. O ROI já foi alcançado no primeiro mês."
   }
 ];
 
@@ -50,10 +50,10 @@ const TestimonialsSection: React.FC = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 reveal">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            O que nossos <span className="text-gradient">alunos</span> dizem
+            O que nossos <span className="text-gradient">clientes</span> dizem
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Histórias reais de quem transformou sua carreira com o nosso método
+            Empresas que transformaram seu atendimento com nossa plataforma
           </p>
         </div>
 

@@ -31,10 +31,10 @@ const ComparisonSection: React.FC = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 reveal">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            A <span className="text-gradient">diferença</span> é clara
+            Veja a <span className="text-gradient">transformação</span> do seu atendimento
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Compare o antes e depois de aplicar as técnicas ensinadas no nosso curso
+            Compare o antes e depois de implementar o SwiftChat em sua empresa
           </p>
         </div>
 
@@ -51,22 +51,37 @@ const ComparisonSection: React.FC = () => {
               </div>
               <div className="mt-12">
                 <div className="bg-gray-700 rounded-lg p-6 mb-6">
-                  <div className="h-8 w-32 bg-gray-600 rounded mb-4"></div>
-                  <div className="h-4 w-full bg-gray-600 rounded mb-2"></div>
-                  <div className="h-4 w-3/4 bg-gray-600 rounded"></div>
-                </div>
-                <div className="grid grid-cols-1 gap-4">
-                  <div className="bg-gray-700 rounded-lg p-4">
-                    <div className="h-6 w-24 bg-gray-600 rounded mb-2"></div>
-                    <div className="h-4 w-full bg-gray-600 rounded"></div>
+                  <div className="flex items-center mb-4">
+                    <div className="w-10 h-10 rounded-full bg-gray-600 mr-3"></div>
+                    <div>
+                      <div className="h-4 w-32 bg-gray-600 rounded mb-2"></div>
+                      <div className="h-3 w-20 bg-gray-600/50 rounded"></div>
+                    </div>
                   </div>
-                  <div className="bg-gray-700 rounded-lg p-4">
-                    <div className="h-6 w-24 bg-gray-600 rounded mb-2"></div>
-                    <div className="h-4 w-full bg-gray-600 rounded"></div>
+                  <div className="space-y-3">
+                    <div className="flex">
+                      <div className="bg-gray-600 p-3 rounded-lg max-w-[80%] ml-auto">
+                        <div className="h-3 w-full bg-gray-500 rounded mb-1"></div>
+                        <div className="h-3 w-3/4 bg-gray-500 rounded"></div>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <div className="bg-gray-600 p-3 rounded-lg max-w-[80%]">
+                        <div className="h-3 w-full bg-gray-500 rounded mb-1"></div>
+                        <div className="h-3 w-full bg-gray-500 rounded mb-1"></div>
+                        <div className="h-3 w-2/3 bg-gray-500 rounded"></div>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <div className="bg-gray-600 p-3 rounded-lg max-w-[80%] ml-auto">
+                        <div className="h-3 w-full bg-gray-500 rounded mb-1"></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="mt-6 p-4 bg-blue-600 rounded text-center text-white font-bold">
-                  CLIQUE AQUI
+                <div className="text-center p-3 text-gray-400 text-sm">
+                  <div className="h-4 w-full max-w-xs mx-auto bg-gray-600 rounded mb-2"></div>
+                  <div className="h-4 w-1/2 max-w-xs mx-auto bg-gray-600 rounded"></div>
                 </div>
               </div>
             </div>
@@ -77,30 +92,43 @@ const ComparisonSection: React.FC = () => {
                 DEPOIS
               </div>
               <div className="mt-12">
-                <div className="bg-dark-700 rounded-lg p-6 mb-6 border border-white/10 backdrop-blur-sm">
-                  <div className="h-10 w-48 bg-gradient-to-r from-neon to-gold rounded-md mb-4"></div>
-                  <div className="h-4 w-full bg-white/20 rounded mb-2"></div>
-                  <div className="h-4 w-3/4 bg-white/20 rounded"></div>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div className="bg-dark-700/50 border border-white/5 rounded-lg p-4 backdrop-blur-sm">
-                    <div className="flex items-center mb-2">
-                      <div className="h-6 w-6 rounded-full bg-neon mr-2"></div>
-                      <div className="h-4 w-24 bg-white/20 rounded"></div>
+                <div className="bg-dark-700 rounded-lg p-6 mb-6 border border-white/10">
+                  <div className="flex items-center mb-4">
+                    <div className="w-10 h-10 rounded-full bg-gradient-to-r from-neon to-neon/70 flex items-center justify-center text-dark-950 font-bold text-sm mr-3">
+                      AI
                     </div>
-                    <div className="h-4 w-full bg-white/10 rounded"></div>
-                  </div>
-                  <div className="bg-dark-700/50 border border-white/5 rounded-lg p-4 backdrop-blur-sm">
-                    <div className="flex items-center mb-2">
-                      <div className="h-6 w-6 rounded-full bg-gold mr-2"></div>
-                      <div className="h-4 w-24 bg-white/20 rounded"></div>
+                    <div>
+                      <div className="text-sm font-medium">SwiftChat Assistant</div>
+                      <div className="text-xs text-gray-400">Online agora</div>
                     </div>
-                    <div className="h-4 w-full bg-white/10 rounded"></div>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="flex">
+                      <div className="bg-dark-600/70 p-3 rounded-lg max-w-[80%] ml-auto">
+                        <div className="text-sm">Como faço para agendar uma demonstração?</div>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <div className="bg-gradient-to-r from-neon/20 to-neon/10 p-3 rounded-lg max-w-[80%] border border-neon/20">
+                        <div className="text-sm">Olá! Posso agendar uma demonstração para você agora mesmo. Qual seria o melhor dia da semana e horário para você?</div>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <div className="bg-dark-600/70 p-3 rounded-lg max-w-[80%] ml-auto">
+                        <div className="text-sm">Quinta-feira às 14h</div>
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <div className="bg-gradient-to-r from-neon/20 to-neon/10 p-3 rounded-lg max-w-[80%] border border-neon/20">
+                        <div className="text-sm">Ótimo! Reservei sua demonstração para quinta-feira às 14h. Um especialista entrará em contato. Posso ajudar com mais alguma coisa?</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div className="mt-6">
-                  <div className="px-8 py-3 bg-gradient-to-r from-neon to-neon/80 rounded-full text-center text-dark-900 font-bold inline-block">
-                    COMEÇAR AGORA →
+                <div className="flex justify-center">
+                  <div className="px-4 py-2 bg-neon/20 rounded-lg text-neon text-sm flex items-center">
+                    <span className="w-2 h-2 bg-neon rounded-full mr-2 animate-pulse"></span>
+                    Resposta instantânea 24/7
                   </div>
                 </div>
               </div>

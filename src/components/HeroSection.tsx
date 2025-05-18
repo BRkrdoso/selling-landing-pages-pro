@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, MessageCircle } from 'lucide-react';
 
 const HeroSection: React.FC = () => {
   useEffect(() => {
@@ -32,20 +32,21 @@ const HeroSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight reveal delay-100">
-              <span className="block">Construa</span> 
-              <span className="block text-gradient">Landing Pages</span> 
-              <span className="block">que Vendem</span>
+              <span className="block">Atendimento</span> 
+              <span className="block text-gradient">WhatsApp com IA</span> 
+              <span className="block">para seu negócio</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-lg reveal delay-200">
-              Domine o design, a estrutura e a psicologia por trás de páginas que realmente convertem.
+              Automatize seu atendimento no WhatsApp com IA avançada que compreende, responde e converte clientes 24/7.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 reveal delay-300">
               <Button className="bg-neon hover:bg-neon/90 text-dark-950 font-semibold px-8 py-6 rounded-full text-lg animate-bounce-light group">
-                Quero aprender agora
+                Testar Gratuitamente
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
               <Button variant="outline" className="border-white/20 hover:bg-white/10 rounded-full px-8 py-6 text-lg">
-                Saiba mais
+                <MessageCircle className="mr-2 h-5 w-5" />
+                Ver demonstração
               </Button>
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-400 reveal delay-400">
@@ -54,7 +55,7 @@ const HeroSection: React.FC = () => {
                 <div className="w-8 h-8 rounded-full bg-gradient-to-r from-gold to-neon"></div>
                 <div className="w-8 h-8 rounded-full bg-gradient-to-r from-neon to-gold"></div>
               </div>
-              <span>+2.500 alunos já se inscreveram</span>
+              <span>+3.500 empresas já automatizaram seu atendimento</span>
             </div>
           </div>
           <div className="lg:block reveal">
@@ -62,8 +63,8 @@ const HeroSection: React.FC = () => {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-neon to-gold rounded-2xl blur-xl opacity-30 animate-pulse-light"></div>
               <div className="relative bg-dark-800 border border-white/10 rounded-2xl overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                  alt="Landing Page Design" 
+                  src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                  alt="WhatsApp AI Assistant Interface" 
                   className="w-full h-auto rounded-2xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-transparent"></div>
@@ -71,7 +72,7 @@ const HeroSection: React.FC = () => {
                   <div className="p-4 bg-dark-950/80 backdrop-blur-sm rounded-lg border border-white/10">
                     <div className="flex items-center gap-3 mb-3">
                       <div className="w-3 h-3 bg-neon rounded-full"></div>
-                      <div className="text-sm font-medium">Landing Page Preview</div>
+                      <div className="text-sm font-medium">SwiftChat AI Assistant</div>
                     </div>
                     <div className="h-1.5 w-full bg-white/10 rounded-full overflow-hidden">
                       <div className="h-full w-2/3 bg-gradient-to-r from-neon to-gold rounded-full"></div>
