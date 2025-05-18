@@ -50,9 +50,9 @@ const HeroSection: React.FC = () => {
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-400 reveal delay-400">
               <div className="flex -space-x-2">
-                <img src="https://i.pravatar.cc/100?img=1" alt="Cliente 1" className="w-8 h-8 rounded-full border-2 border-dark-900" />
-                <img src="https://i.pravatar.cc/100?img=2" alt="Cliente 2" className="w-8 h-8 rounded-full border-2 border-dark-900" />
-                <img src="https://i.pravatar.cc/100?img=3" alt="Cliente 3" className="w-8 h-8 rounded-full border-2 border-dark-900" />
+                <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg" alt="Empresa 1" className="w-8 h-8 rounded-full border-2 border-dark-900 object-cover" />
+                <img src="https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg" alt="Empresa 2" className="w-8 h-8 rounded-full border-2 border-dark-900 object-cover" />
+                <img src="https://images.pexels.com/photos/6476776/pexels-photo-6476776.jpeg" alt="Empresa 3" className="w-8 h-8 rounded-full border-2 border-dark-900 object-cover" />
               </div>
               <span>+3.500 empresas já automatizaram seu atendimento</span>
             </div>
@@ -64,24 +64,28 @@ const HeroSection: React.FC = () => {
                 <div className="p-4 bg-dark-900 border-b border-white/10">
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-neon rounded-full"></div>
-                    <div className="text-sm font-medium">SwiftChat AI Assistant</div>
+                    <div className="flex items-center gap-2">
+                      <img src="https://images.pexels.com/photos/8867482/pexels-photo-8867482.jpeg" alt="SwiftChat AI" className="w-6 h-6 rounded-full object-cover" />
+                      <div className="text-sm font-medium">SwiftChat AI Assistant</div>
+                      <span className="text-xs text-green-400">Online</span>
+                    </div>
                   </div>
                 </div>
                 <div className="p-6">
                   <div className="space-y-4">
                     <div className="flex justify-end">
                       <div className="bg-dark-700/70 p-3 rounded-lg max-w-[80%]">
-                        <p className="text-sm">Olá! Gostaria de saber mais sobre os planos de assinatura.</p>
+                        <p className="text-sm">Olá! Preciso de informações sobre entrega para outro estado.</p>
                       </div>
                     </div>
                     <div className="flex">
                       <div className="bg-gradient-to-r from-neon/20 to-neon/10 p-3 rounded-lg max-w-[80%] border border-neon/20">
-                        <p className="text-sm">Claro! Temos três planos disponíveis: Básico (Grátis), Pro (R$97/mês) e Business (R$297/mês). Cada um oferece diferentes limites de mensagens e recursos. Qual deles mais te interessa?</p>
+                        <p className="text-sm">Com certeza! Para entregas interestaduais, nosso prazo é de 3-5 dias úteis. O frete é calculado com base no CEP de destino. Posso fazer uma simulação para você agora. Qual seria o CEP de entrega?</p>
                       </div>
                     </div>
                     <div className="flex justify-end">
                       <div className="bg-dark-700/70 p-3 rounded-lg max-w-[80%]">
-                        <p className="text-sm">O plano Pro parece interessante. Como funciona o período de teste?</p>
+                        <p className="text-sm">Perfeito! Meu CEP é 89222-123</p>
                       </div>
                     </div>
                   </div>

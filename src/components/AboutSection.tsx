@@ -31,7 +31,7 @@ const AboutSection: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Desenvolvido pela <span className="text-gradient">TechVantage Labs</span>
             </h2>
-            <h3 className="text-2xl font-semibold mb-4">Inovação em IA & Automação</h3>
+            <h3 className="text-2xl font-semibold mb-4">Pioneiros em IA Conversacional</h3>
             <p className="text-gray-300 mb-6">
               A TechVantage Labs é líder global em soluções de IA conversacional, com mais de uma década 
               de experiência no desenvolvimento de tecnologias que revolucionam a comunicação empresarial.
