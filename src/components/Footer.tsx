@@ -8,10 +8,10 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
-              <span className="text-xl font-bold text-gradient">Brandon<span className="text-white">Tecco</span></span>
+              <span className="text-xl font-bold text-gradient">Swift<span className="text-white">Chat</span></span>
             </div>
             <p className="text-gray-400 mb-6 max-w-sm">
-              Transformando freelancers e designers em especialistas em landing pages de alta conversão.
+              Transformando o atendimento ao cliente com inteligência artificial avançada para WhatsApp.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 rounded-full bg-dark-800 flex items-center justify-center hover:bg-dark-700 transition-colors">
@@ -43,16 +43,32 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold text-white mb-4">Contato</h3>
             <ul className="space-y-3">
-              <li className="text-gray-400">suporte@brandontecco.com</li>
+              <li className="text-gray-400">suporte@swiftchat.com</li>
               <li className="text-gray-400">+55 (11) 99999-9999</li>
               <li className="text-gray-400">São Paulo, Brasil</li>
             </ul>
           </div>
         </div>
         
+        {/* Disclaimer Section */}
+        <div className="border-t border-white/5 pt-8 mb-8">
+          <div className="bg-dark-800/50 rounded-xl p-6 border border-white/5">
+            <h3 className="text-center font-semibold text-neon mb-3">*AVISO IMPORTANTE*</h3>
+            <p className="text-gray-400 text-sm text-center">
+              Esta é uma página <span className="text-neon font-semibold">*fictícia*</span> criada para fins de demonstração e portfólio.
+              O produto SwiftChat, os <span className="text-neon font-semibold">*dados*</span>, 
+              <span className="text-neon font-semibold">*depoimentos*</span>, 
+              <span className="text-neon font-semibold">*estatísticas*</span> e 
+              <span className="text-neon font-semibold">*preços*</span> apresentados nesta página não são reais.
+              Nenhuma das <span className="text-neon font-semibold">*empresas*</span> ou <span className="text-neon font-semibold">*pessoas*</span> mencionadas
+              existem ou estão afiliadas a este projeto.
+            </p>
+          </div>
+        </div>
+        
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Brandon Tecco. Todos os direitos reservados.
+            © {new Date().getFullYear()} SwiftChat. Todos os direitos reservados.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-500 text-sm hover:text-neon transition-colors">Termos de Uso</a>
