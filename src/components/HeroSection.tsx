@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MessageCircle } from 'lucide-react';
@@ -51,9 +50,9 @@ const HeroSection: React.FC = () => {
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-400 reveal delay-400">
               <div className="flex -space-x-2">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-neon to-gold"></div>
-                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-gold to-neon"></div>
-                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-neon to-gold"></div>
+                <img src="https://i.pravatar.cc/100?img=1" alt="Cliente 1" className="w-8 h-8 rounded-full border-2 border-dark-900" />
+                <img src="https://i.pravatar.cc/100?img=2" alt="Cliente 2" className="w-8 h-8 rounded-full border-2 border-dark-900" />
+                <img src="https://i.pravatar.cc/100?img=3" alt="Cliente 3" className="w-8 h-8 rounded-full border-2 border-dark-900" />
               </div>
               <span>+3.500 empresas já automatizaram seu atendimento</span>
             </div>
@@ -62,20 +61,28 @@ const HeroSection: React.FC = () => {
             <div className="relative">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-neon to-gold rounded-2xl blur-xl opacity-30 animate-pulse-light"></div>
               <div className="relative bg-dark-800 border border-white/10 rounded-2xl overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                  alt="WhatsApp AI Assistant Interface" 
-                  className="w-full h-auto rounded-2xl"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-transparent"></div>
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <div className="p-4 bg-dark-950/80 backdrop-blur-sm rounded-lg border border-white/10">
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className="w-3 h-3 bg-neon rounded-full"></div>
-                      <div className="text-sm font-medium">SwiftChat AI Assistant</div>
+                <div className="p-4 bg-dark-900 border-b border-white/10">
+                  <div className="flex items-center gap-3">
+                    <div className="w-3 h-3 bg-neon rounded-full"></div>
+                    <div className="text-sm font-medium">SwiftChat AI Assistant</div>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <div className="space-y-4">
+                    <div className="flex justify-end">
+                      <div className="bg-dark-700/70 p-3 rounded-lg max-w-[80%]">
+                        <p className="text-sm">Olá! Gostaria de saber mais sobre os planos de assinatura.</p>
+                      </div>
                     </div>
-                    <div className="h-1.5 w-full bg-white/10 rounded-full overflow-hidden">
-                      <div className="h-full w-2/3 bg-gradient-to-r from-neon to-gold rounded-full"></div>
+                    <div className="flex">
+                      <div className="bg-gradient-to-r from-neon/20 to-neon/10 p-3 rounded-lg max-w-[80%] border border-neon/20">
+                        <p className="text-sm">Claro! Temos três planos disponíveis: Básico (Grátis), Pro (R$97/mês) e Business (R$297/mês). Cada um oferece diferentes limites de mensagens e recursos. Qual deles mais te interessa?</p>
+                      </div>
+                    </div>
+                    <div className="flex justify-end">
+                      <div className="bg-dark-700/70 p-3 rounded-lg max-w-[80%]">
+                        <p className="text-sm">O plano Pro parece interessante. Como funciona o período de teste?</p>
+                      </div>
                     </div>
                   </div>
                 </div>

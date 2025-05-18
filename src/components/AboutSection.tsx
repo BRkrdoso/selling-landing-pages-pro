@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 
 const AboutSection: React.FC = () => {
@@ -30,44 +29,44 @@ const AboutSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1 reveal">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Sobre o <span className="text-gradient">Criador</span>
+              Desenvolvido pela <span className="text-gradient">TechVantage Labs</span>
             </h2>
-            <h3 className="text-2xl font-semibold mb-4">Brandon Tecco</h3>
+            <h3 className="text-2xl font-semibold mb-4">Inovação em IA & Automação</h3>
             <p className="text-gray-300 mb-6">
-              Com mais de 8 anos de experiência no desenvolvimento de landing pages de alta conversão, 
-              Brandon já ajudou mais de 300 empresas a aumentarem suas taxas de conversão em uma média de 320%.
+              A TechVantage Labs é líder global em soluções de IA conversacional, com mais de uma década 
+              de experiência no desenvolvimento de tecnologias que revolucionam a comunicação empresarial.
             </p>
             <blockquote className="border-l-4 border-neon pl-4 italic text-gray-300 my-6">
-              "O segredo de uma landing page que vende não está apenas na estética, mas na compreensão 
-              profunda da psicologia do usuário combinada com a execução técnica impecável."
+              "Nossa missão é democratizar o acesso à inteligência artificial, permitindo que empresas 
+              de todos os portes ofereçam um atendimento excepcional 24/7."
             </blockquote>
             <p className="text-gray-300">
-              Formado em Design Digital e especializado em Marketing de Conversão, Brandon desenvolveu 
-              uma metodologia única que combina princípios de UX/UI com técnicas avançadas de copywriting 
-              e otimização para conversão.
+              Com um time de especialistas em IA, processamento de linguagem natural e experiência do usuário, 
+              desenvolvemos o SwiftChat para ser mais que um chatbot - uma solução completa de atendimento 
+              que combina tecnologia de ponta com facilidade de uso.
             </p>
             <div className="mt-8 flex gap-6">
               <div>
-                <div className="text-3xl font-bold text-neon">+500</div>
-                <div className="text-sm text-gray-400">Projetos</div>
+                <div className="text-3xl font-bold text-neon">12+</div>
+                <div className="text-sm text-gray-400">Anos de Experiência</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-neon">+2.5k</div>
-                <div className="text-sm text-gray-400">Alunos</div>
+                <div className="text-3xl font-bold text-neon">50M+</div>
+                <div className="text-sm text-gray-400">Mensagens/Mês</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-neon">97%</div>
-                <div className="text-sm text-gray-400">Satisfação</div>
+                <div className="text-3xl font-bold text-neon">99.9%</div>
+                <div className="text-sm text-gray-400">Uptime</div>
               </div>
             </div>
           </div>
           <div className="order-1 lg:order-2 flex justify-center reveal">
             <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-neon to-gold rounded-full blur-md opacity-70 animate-pulse-light"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-neon to-gold rounded-2xl blur-md opacity-70 animate-pulse"></div>
               <img 
-                src="https://i.pravatar.cc/400?img=33" 
-                alt="Brandon Tecco" 
-                className="w-64 h-64 object-cover rounded-full relative z-10"
+                src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                alt="TechVantage Labs Headquarters" 
+                className="w-full h-auto rounded-2xl relative z-10 object-cover"
               />
             </div>
           </div>

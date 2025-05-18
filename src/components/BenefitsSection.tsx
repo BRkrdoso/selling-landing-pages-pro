@@ -1,27 +1,30 @@
-
 import React, { useEffect } from 'react';
-import { MessageSquare, Bot, Zap, Users } from 'lucide-react';
+import { MessageSquare, Bot, Zap, Users, Brain, Sparkles, Rocket, UserPlus } from 'lucide-react';
 
 const benefitsData = [
   {
-    icon: MessageSquare,
+    icon: Brain,
     title: "Respostas Instantâneas",
-    description: "Atendimento automático para perguntas frequentes e solicitações de suporte em qualquer horário."
+    description: "Atendimento automático para perguntas frequentes e solicitações de suporte em qualquer horário.",
+    color: "#00ffae"
   },
   {
-    icon: Bot,
+    icon: Sparkles,
     title: "IA Avançada",
-    description: "Tecnologia de processamento de linguagem natural que entende contexto e intenções dos clientes."
+    description: "Tecnologia de processamento de linguagem natural que entende contexto e intenções dos clientes.",
+    color: "#ffd700"
   },
   {
-    icon: Zap,
+    icon: Rocket,
     title: "Integração Rápida",
-    description: "Configure em minutos e integre com seu WhatsApp Business, CRM e sistemas existentes."
+    description: "Configure em minutos e integre com seu WhatsApp Business, CRM e sistemas existentes.",
+    color: "#ff6b6b"
   },
   {
-    icon: Users,
+    icon: UserPlus,
     title: "Experiência Personalizada",
-    description: "Interações personalizadas baseadas no histórico e comportamento dos clientes."
+    description: "Interações personalizadas baseadas no histórico e comportamento dos clientes.",
+    color: "#4facfe"
   }
 ];
 
@@ -67,8 +70,8 @@ const BenefitsSection: React.FC = () => {
               className={`bg-dark-800 border border-white/10 rounded-xl p-6 transition-all hover:scale-105 reveal`}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <div className="w-12 h-12 mb-6 rounded-lg bg-gradient-to-br from-neon to-neon/20 flex items-center justify-center">
-                <benefit.icon className="h-6 w-6 text-dark-950" />
+              <div className="w-12 h-12 mb-6 rounded-lg flex items-center justify-center" style={{ backgroundColor: benefit.color + '20' }}>
+                <benefit.icon className="h-6 w-6" style={{ color: benefit.color }} />
               </div>
               <h3 className="text-xl font-semibold mb-3">{benefit.title}</h3>
               <p className="text-gray-400">{benefit.description}</p>
